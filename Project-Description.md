@@ -6,4 +6,4 @@
 - Rylee Charlton – charltrj@mail.uc.edu
 
 ## Project Description
-We are going to design a website that uses machine learning to perform statistical analysis on given data.
+Our primary goal is to dive deep into the realm of Machine Learning and Artificial Intelligence using the Python programming language. This project is not just about achieving a specific solution but is also focused on the learning journey itself, allowing us to gain a comprehensive understanding of the subject and practical application of it. 
