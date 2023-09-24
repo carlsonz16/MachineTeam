@@ -9,7 +9,7 @@
 7. Develop a prototype model using relevant ML libraries (TensorFlow, PyTorch, Scikit-learn, etc.)
 8. Develop and conduct tests for the model to gauge performance, both back and forward testing, to refine the model.
 9. Develop a schema to store data used for our model efficiently. ***- All members***
-10. Design the web app UI/UX and decide on a framework (React, Vue, Angular, etc.). - All members
+10. Design the web app UI/UX and decide on a framework (React, Vue, Angular, etc.). ***- All members***
 12. Develop the necessary front-end components for the website.***- All members***
 13. Integrate the ML model into the site's backend to display predictions (Flask, Django etc.)
 14. Create meaningful features that can contribute to prediction accuracy (e.g., team rankings, player statistics). ***- All members***
