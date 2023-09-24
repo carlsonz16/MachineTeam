@@ -12,7 +12,7 @@
 10. Develop the necessary front-end components for the website.
 11. Integrate the ML model into the site's backend to display predictions (Flask, Django etc.)
 12. Implement any needed database solutions, if any.
-13. Document architecture.
+13. Document program architecture.
 14. Document machine learning model specifics.
 15. Document data pipeline specifics.
 16. Document front-end component specifics.
