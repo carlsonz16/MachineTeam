@@ -16,7 +16,7 @@
 15. Implement any needed database solutions, if any.
 16. Document program architecture (including machine learning model specifics and data pipeline specifics).
 17. Write comprehensive front-end and developer documentation.
-18. 20. Develop and run tests for the web application to ensure we are alerted when functionalities break.
+18. Develop and run tests for the web application to ensure we are alerted when functionalities break.
 21. Configure recovery solutions for site downtime. 
 22. Refine the UI/UX based on user feedback.
 23. Deploy the web app to a suitable hosting platform/service. 
