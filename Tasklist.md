@@ -14,11 +14,9 @@
 13. Integrate the ML model into the site's backend to display predictions (Flask, Django etc.)
 14. Create meaningful features that can contribute to prediction accuracy (e.g., team rankings, player statistics).
 15. Implement any needed database solutions, if any.
-16. Document program architecture.
-17. Document machine learning model specifics.
-18. Document data pipeline specifics.
-19. Document front-end component specifics.
-20. Develop and run tests for the web application to ensure we are alerted when functionalities break.
+16. Document program architecture (including machine learning model specifics and data pipeline specifics).
+17. Write comprehensive front-end and developer documentation.
+18. 20. Develop and run tests for the web application to ensure we are alerted when functionalities break.
 21. Configure recovery solutions for site downtime. 
 22. Refine the UI/UX based on user feedback.
 23. Deploy the web app to a suitable hosting platform/service. 
