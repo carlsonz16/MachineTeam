@@ -1,10 +1,10 @@
 # Task List
 
 1. Research the current state of sports prediction methodologies and tools.
-2. Research the use of Unity Machine Learning with Python. 
+2. Research the use of Unity Machine Learning with Python. ***- Sean***
 3. Specify the sports events we would like to focus on. ***- Zach***
-4. Investigate potential datasets and APIs related to our selected sports events.  ***- Zach***
-5. Collect data for past games, including features like teams, players, scores, and other relevant statistics. ***- Zach***
+4. Investigate potential datasets and APIs related to our selected sports events.  ***- Zach, Sean***
+5. Collect data for past games, including features like teams, players, scores, and other relevant statistics. ***- Zach, Sean***
 6. Design an initial model architecture for the sports predictions. ***- All members***
 7. Develop a prototype model using relevant ML libraries (TensorFlow, PyTorch, Scikit-learn, etc.) ***- Zach***
 8. Develop and conduct tests for the model to gauge performance, both back and forward testing, to refine the model. ***- Zach***
@@ -18,5 +18,5 @@
 17. Write comprehensive front-end and developer documentation. ***- Rylee***
 18. Develop and run tests for the web application to ensure we are alerted when functionalities break. ***- Zach***
 21. Configure recovery solutions for site downtime. 
-22. Refine the UI/UX based on user feedback.
-23. Deploy the web app to a suitable hosting platform/service. 
+22. Refine the UI/UX based on user feedback. ***- Sean***
+23. Deploy the web app to a suitable hosting platform/service. ***- Sean***
