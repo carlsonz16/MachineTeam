@@ -68,6 +68,6 @@
 
 # Timeline
 *Assuming this semester is used as a planning semester and production will start Spring semester of 2024*
-
+![GanttChart](https://github.com/carlsonz16/MachineTeam/blob/main/GanttChartv2.pdf)
 
 # Effort Matrix
