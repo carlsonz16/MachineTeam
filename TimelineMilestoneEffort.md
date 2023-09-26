@@ -68,6 +68,32 @@
 
 # Timeline
 *Assuming this semester is used as a planning semester and production will start Spring semester of 2024*
-![GanttChart](https://github.com/carlsonz16/MachineTeam/blob/main/GanttChartv2.pdf)
+[GanttChart](https://github.com/carlsonz16/MachineTeam/blob/main/GanttChartv2.pdf)
 
 # Effort Matrix
+Here's a breakdown of the expected division of labor for each task, indicating the primary team member responsible for each task and their estimated percentage of effort or hours of effort:
+
+| Task                                                         | Primary Responsible Member | Estimated Effort |
+|--------------------------------------------------------------|-----------------------------|-------------------|
+| 1. Research sports prediction methodologies and tools         | All Members                 | 10% each         |
+| 2. Research Unity Machine Learning with Python               | Sean                        | 20%              |
+| 3. Specify sports events to focus on                          | Zach                        | 10%              |
+| 4. Investigate potential datasets and APIs                    | Zach, Sean                  | 25% each         |
+| 5. Collect data for past games                                | Zach, Sean                  | 25% each         |
+| 6. Design initial model architecture                          | All Members                 | 10% each         |
+| 7. Develop prototype model with ML libraries                  | Zach, Jake                  | 30% each         |
+| 8. Develop and conduct model tests for performance            | Zach                        | 15%              |
+| 9. Develop a schema for efficient data storage                | All Members                 | 10% each         |
+| 10. Design web app UI/UX and select a framework                | All Members                 | 10% each         |
+| 12. Develop front-end components for the website              | All Members                 | 15% each         |
+| 13. Integrate ML model into the site's backend                 | Zach, Jake                  | 25% each         |
+| 14. Create meaningful features for prediction accuracy         | All Members                 | 10% each         |
+| 15. Implement any needed database solutions                    | All Members                 | 10% each         |
+| 16. Document program architecture                              | Rylee, Jake                 | 15% each         |
+| 17. Write comprehensive documentation (front-end & developer)  | Rylee                       | 20%              |
+| 18. Develop and run tests for the web application              | Zach                        | 15%              |
+| 21. Configure recovery solutions for site downtime             | All Members                 | 10% each         |
+| 22. Refine UI/UX based on user feedback                         | Sean                        | 20%              |
+| 23. Deploy the web app to a hosting platform/service           | Sean                        | 20%              |
+
+Please note that the estimated effort percentages are approximate and can vary depending on the complexity of each task and the individual team member's skills and expertise. Additionally, team members may collaborate and provide support to each other as needed throughout the project. Regular communication and collaboration will be essential to ensure the project's success.
