@@ -68,7 +68,7 @@
 
 # Timeline
 *Assuming this semester is used as a planning semester and production will start Spring semester of 2024*
-[GanttChart](https://github.com/carlsonz16/MachineTeam/blob/main/GanttChartv2.pdf)
+![GanttChart](https://github.com/carlsonz16/MachineTeam/blob/main/GanttChartv2.png)
 
 # Effort Matrix
 Here's a breakdown of the expected division of labor for each task, indicating the primary team member responsible for each task and their estimated percentage of effort or hours of effort:
