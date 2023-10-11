@@ -68,7 +68,7 @@
 
 # Timeline
 *Assuming this semester is used as a planning semester and production will start Spring semester of 2024*
-![GanttChart](https://github.com/carlsonz16/MachineTeam/blob/main/GanttChartv2.jpg)
+![GanttChart](https://github.com/carlsonz16/MachineTeam/blob/main/gant.png)
 
 # Effort Matrix
 Here's a breakdown of the expected division of labor for each task, indicating the primary team member responsible for each task and their estimated percentage of effort or hours of effort:
@@ -96,4 +96,3 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 | 22. Refine UI/UX based on user feedback                         | Sean                        | 20%              |
 | 23. Deploy the web app to a hosting platform/service           | Sean                        | 20%              |
 
-Please note that the estimated effort percentages are approximate and can vary depending on the complexity of each task and the individual team member's skills and expertise. Additionally, team members may collaborate and provide support to each other as needed throughout the project. Regular communication and collaboration will be essential to ensure the project's success.
