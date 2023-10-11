@@ -3,9 +3,9 @@
    - **Project Deliverable:** Research findings and summaries.
    - **Explanation:** This milestone involves researching the current state of sports prediction methodologies and tools. All team members contribute to gathering information about existing approaches and technologies in the field.
 
-2. **Unity Machine Learning Research (Milestone):**
-   - **Project Deliverable:** Report on the compatibility and potential use of Unity Machine Learning with Python.
-   - **Explanation:** Sean will complete research on the use of Unity Machine Learning with Python, which could potentially be used for creating a user-friendly interface or visualization of sports predictions.
+2. **Machine Learning Research (Milestone):**
+   - **Project Deliverable:** Report on the compatibility and potential use of different Machine Learning libraries with Python.
+   - **Explanation:** Sean will complete research on the use of Machine Learning with Python, which will be used to create our models.
 
 3. **Sports Selection Defined (Milestone):**
    - **Project Deliverable:** Document specifying the sports events to focus on.
@@ -76,7 +76,7 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 | Task                                                         | Primary Responsible Member | Estimated Effort |
 |--------------------------------------------------------------|-----------------------------|-------------------|
 | 1. Research sports prediction methodologies and tools         | All Members                 | 10% each         |
-| 2. Research Unity Machine Learning with Python               | Sean                        | 20%              |
+| 2. Research Machine Learning with Python                      | Sean                        | 20%              |
 | 3. Specify sports events to focus on                          | Zach                        | 10%              |
 | 4. Investigate potential datasets and APIs                    | Zach, Sean                  | 25% each         |
 | 5. Collect data for past games                                | Zach, Sean                  | 25% each         |
