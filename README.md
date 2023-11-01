@@ -17,6 +17,7 @@ Our project aims to delve deep into the realm of Machine Learning and Artificial
 
 ### Design Diagrams 
 **Key:**
+
 ![Key](https://github.com/carlsonz16/MachineTeam/blob/main/Design_Diagrams/Key.png)
 
 
