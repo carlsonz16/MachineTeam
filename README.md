@@ -178,17 +178,17 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 
 ## Professional Biographies
 ### Jake D'Amico 
-## Co-Op Experience
+**Co-Op Experience**
 
 - Worked three semesters with a team at Siemens doing mostly frontend but some backend web development.
 - Primarily used Angular, JavaScript, and C#.
 - Also spent a semester with the same team developing performance tests for new site functionalities and the framework for exporting those results to SQL with C# and Selenium.
 
-## Major Skills
+**Major Skills**
 
 - JavaScript, Python, C#, C/C++, HTML, CSS, Angular, SQL
 
-## Interests/Projects I'd Like to Pursue
+**Interests/Projects I'd Like to Pursue**
 
 - The use of 3D JavaScript libraries such as three.js to create web experiences
 - Physics engines with C++
@@ -198,13 +198,13 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 
   
 ### Sean Tarbuck
-## About
+**About**
 My name is Sean Tarbuck and I am currently a 5th year student studying computer science at the University of Cincinnati. 
 
-## Contact
+**Contact**
 Email: Tarbucsm@mail.uc.edu
 
-## Co-op Experience 
+**Co-op Experience**
 1. Sites & Document Management Co - op - Lubrizol
   - May 2023 - August 2023
   - Honed many critical development skills including: PowerShell, PNP, Nintex, REST, Graph
@@ -228,7 +228,7 @@ Email: Tarbucsm@mail.uc.edu
   - Efficiently used security technologies such as O365, Trustwave, XSOAR, ThreatGrid, and Proofpoint
   - Assisted with the development of processes and procedures to improve incident response times and overall SOC functions
 
-## Areas of Interest / Project Sought
+**Areas of Interest / Project Sought**
 I currently do not have an exact idea what I would like to create for my senior design project, however, some potential areas of interest include: 
   - Cloud
   - Machine Learning 
@@ -237,13 +237,13 @@ I currently do not have an exact idea what I would like to create for my senior 
 
     
 ### Zach Carlson
-## About
+**About**
 My name is Zach Carlson, and I am a 5th year Computer Science student at the University of Cincinnati. My main passions associated with computer science are Artificial Intelligence, algorithms, software development, and web development. 
 
-## Contact
+**Contact**
 My email address is carlsozl@mail.uc.edu 
 
-## Co-op Experience  
+**Co-op Experience**
 1.	American Cutting Edge
     -	Worked from August 2020 – December 2020
     -	IT Intern
@@ -265,7 +265,7 @@ My email address is carlsozl@mail.uc.edu
     -	Strategic Student Program Software Development Co-Op
     -	Developed and deployed new features for company website Solution Link using HTML, CSS, JavaScript, Angular JS and C#. Fixed numerous website bugs, improved frontend and backend website development skills.
 
-## Projects Sought
+**Projects Sought**
 I currently don’t have a clear grasp as to what I would like to create for my Senior Design Project. I have a couple of ideas, but I am not set on one yet.
 -	Artificial Intelligence Model
 -	Machine Learning Data Model
@@ -276,11 +276,11 @@ I currently don’t have a clear grasp as to what I would like to create for my 
 
 
 ### Rylee Charlton
-## Contact information
+**Contact information**
 Rylee Charlton
 
 charltrj@mail.uc.edu
-## Co-op Work Experience
+**Co-op Work Experience**
 Internal Computer Support InternSchneider Downs Inc,, *May 2021-Present (7 semesters)*
 - Configure and monitor servers, backups, and cloud infrastructure.
 - Research and resolve daily alerts associated with servers, backups, and cloud infrastructure.
@@ -291,17 +291,17 @@ Internal Computer Support InternSchneider Downs Inc,, *May 2021-Present (7 semes
 - Lead and/or assist with network and systems implementations, upgrades, and maintenance.
 - Create documentation, training materials, and videos.
 
-### Skills
+**Skills**
 - Programming: C++, Python, Java
 - Active Directory, Group Policy, Office 365, Exchange Hybrid, VMware Horizon, and Azure
 - Windows/Linux environment
 
-### Areas of Interest
+**Areas of Interest**
 - Systems Administration/Network Configuration
 - Security Data Analysis 
 - Cloud Computing
   
-## Project Sought
+**Project Sought**
 - Possible Android Application (Friend finder based on user preferences)
 - Possible relation to co-op
 
