@@ -49,9 +49,9 @@ make sure the model is providing results up to our standard. After the data is s
 ![D2](https://github.com/carlsonz16/MachineTeam/blob/main/Design_Diagrams/new%20D2.png)
 ## Project Tasks and Timeline
 
-## ABET Concerns Essay
 
 ## PPT Slideshow
+[Presentation](https://docs.google.com/presentation/d/18rP2mFoe99REIxquvZ4SXVQtCudlpp2a68en-eUUvq4/edit#slide=id.g290da63ae18_4_21)
 
 ## Self-Assessment Essays
 
