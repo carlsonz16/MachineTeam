@@ -286,6 +286,7 @@ I currently don’t have a clear grasp as to what I would like to create for my 
 **Contact information**
 
 Rylee Charlton
+
 charltrj@mail.uc.edu
 
 **Co-op Work Experience**
