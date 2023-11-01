@@ -199,9 +199,11 @@ Here's a breakdown of the expected division of labor for each task, indicating t
   
 ### Sean Tarbuck
 **About**
+
 My name is Sean Tarbuck and I am currently a 5th year student studying computer science at the University of Cincinnati. 
 
 **Contact**
+
 Email: Tarbucsm@mail.uc.edu
 
 **Co-op Experience**
@@ -229,6 +231,7 @@ Email: Tarbucsm@mail.uc.edu
   - Assisted with the development of processes and procedures to improve incident response times and overall SOC functions
 
 **Areas of Interest / Project Sought**
+
 I currently do not have an exact idea what I would like to create for my senior design project, however, some potential areas of interest include: 
   - Cloud
   - Machine Learning 
@@ -238,12 +241,15 @@ I currently do not have an exact idea what I would like to create for my senior 
     
 ### Zach Carlson
 **About**
+
 My name is Zach Carlson, and I am a 5th year Computer Science student at the University of Cincinnati. My main passions associated with computer science are Artificial Intelligence, algorithms, software development, and web development. 
 
 **Contact**
+
 My email address is carlsozl@mail.uc.edu 
 
 **Co-op Experience**
+
 1.	American Cutting Edge
     -	Worked from August 2020 – December 2020
     -	IT Intern
@@ -266,6 +272,7 @@ My email address is carlsozl@mail.uc.edu
     -	Developed and deployed new features for company website Solution Link using HTML, CSS, JavaScript, Angular JS and C#. Fixed numerous website bugs, improved frontend and backend website development skills.
 
 **Projects Sought**
+
 I currently don’t have a clear grasp as to what I would like to create for my Senior Design Project. I have a couple of ideas, but I am not set on one yet.
 -	Artificial Intelligence Model
 -	Machine Learning Data Model
@@ -277,10 +284,12 @@ I currently don’t have a clear grasp as to what I would like to create for my 
 
 ### Rylee Charlton
 **Contact information**
-Rylee Charlton
 
+Rylee Charlton
 charltrj@mail.uc.edu
+
 **Co-op Work Experience**
+
 Internal Computer Support InternSchneider Downs Inc,, *May 2021-Present (7 semesters)*
 - Configure and monitor servers, backups, and cloud infrastructure.
 - Research and resolve daily alerts associated with servers, backups, and cloud infrastructure.
@@ -292,16 +301,19 @@ Internal Computer Support InternSchneider Downs Inc,, *May 2021-Present (7 semes
 - Create documentation, training materials, and videos.
 
 **Skills**
+
 - Programming: C++, Python, Java
 - Active Directory, Group Policy, Office 365, Exchange Hybrid, VMware Horizon, and Azure
 - Windows/Linux environment
 
 **Areas of Interest**
+
 - Systems Administration/Network Configuration
 - Security Data Analysis 
 - Cloud Computing
   
 **Project Sought**
+
 - Possible Android Application (Friend finder based on user preferences)
 - Possible relation to co-op
 
