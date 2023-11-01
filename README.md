@@ -2,7 +2,12 @@
 
 ## Our Team - Machine Team
 *Zach Carlson, Jake D'Amico, Sean Tarbuck, Rylee Charlton*
+
 *Project Advisor - Dr. Fred Annexstein*
+
+### Project Abstract
+The sports betting market has seen rapid expansion due to the increased legalization of betting in multiple regions. This growth has been fueled by the emergence of online platforms, advanced technologies, and the widespread adoption of mobile betting applications. Leveraging algorithms that incorporate data from credible sources, sports betting websites provide users with a competitive edge. This approach facilitates well-informed betting decisions based on reliable information, leading to heightened prediction accuracy, increased success rates, and potentially greater profits. Furthermore, the use of trustworthy sources ensures data reliability, fostering user trust and transparency. Consequently, this integration of advanced algorithms and credible data contributes to a more sophisticated and reliable betting experience for enthusiasts.
+
 
 ## Project Description
 Our project aims to delve deep into the realm of Machine Learning and Artificial Intelligence using Python. Our primary objective is to create a machine-learned model that can analyze sports statistics and generate predictions. These predictions will be utilized to develop a website where users can retrieve these predictions to influence future bets. The project emphasizes both achieving practical results and the educational journey of gaining a comprehensive understanding of Machine Learning and AI.
