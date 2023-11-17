@@ -177,7 +177,148 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 ## Self-Assessment Essays
 
 ## Professional Biographies
+### Jake D'Amico 
+**Co-Op Experience**
 
+- Worked three semesters with a team at Siemens doing mostly frontend but some backend web development.
+- Primarily used Angular, JavaScript, and C#.
+- Also spent a semester with the same team developing performance tests for new site functionalities and the framework for exporting those results to SQL with C# and Selenium.
+
+**Major Skills**
+
+- JavaScript, Python, C#, C/C++, HTML, CSS, Angular, SQL
+
+**Interests/Projects I'd Like to Pursue**
+
+- The use of 3D JavaScript libraries such as three.js to create web experiences
+- Physics engines with C++
+- Python Machine Learning, specific image/sound recognition
+- Sound-based authentication systems
+- Progressive Web Apps
+
+  
+### Sean Tarbuck
+**About**
+
+My name is Sean Tarbuck and I am currently a 5th year student studying computer science at the University of Cincinnati. 
+
+**Contact**
+
+Email: Tarbucsm@mail.uc.edu
+
+**Co-op Experience**
+1. Sites & Document Management Co - op - Lubrizol
+  - May 2023 - August 2023
+  - Honed many critical development skills including: PowerShell, PNP, Nintex, REST, Graph
+  - Responsible for developing a user access and permissions application 
+2. OT & Lab Services Co - op - Lubrizol	        
+  - August 2022 - December 2022
+  - Demonstrated strong leadership when facilitating cyber security-oriented tabletop exercises to promote increased awareness and preparedness for cyber-related emergencies
+  - Fostered open communication and collaboration among team members to build readiness during cyber-related emergencies
+  - Provided recommendations for cyber security-related emergency response processes and procedures that contributed to the development of a comprehensive and effective cyber security program
+3. Media and Technology Co - op - Lubrizol			
+  - January 2022 - April 2022
+  - Implemented and led organizational improvements for a global communication display software
+  - Proficiently used Microsoft Platform tools to assist in the development of Media Center projects and tasks
+4. Hybrid Data Centers Co - op - Lubrizol        	                                              
+  - May 2021 - August 2021
+  - Responsible for the development of data center monitoring interfaces and tools using SolarWinds for quicker, more effective responses to incidents, and overall analysis of data center health
+  - Responsible for planning, organizing, and executing in place server upgrades for all print servers
+5. Cybersecurity Analyst Co - op - Lubrizol        	                      
+  - August 2020 - December 2020
+  - Maintained the security of data and information through active management of provided security tools 
+  - Efficiently used security technologies such as O365, Trustwave, XSOAR, ThreatGrid, and Proofpoint
+  - Assisted with the development of processes and procedures to improve incident response times and overall SOC functions
+
+**Areas of Interest / Project Sought**
+
+I currently do not have an exact idea what I would like to create for my senior design project, however, some potential areas of interest include: 
+  - Cloud
+  - Machine Learning 
+  - Artificial Intelligence
+
+
+    
+### Zach Carlson
+**About**
+
+My name is Zach Carlson, and I am a 5th year Computer Science student at the University of Cincinnati. My main passions associated with computer science are Artificial Intelligence, algorithms, software development, and web development. 
+
+**Contact**
+
+My email address is carlsozl@mail.uc.edu 
+
+**Co-op Experience**
+
+1.	American Cutting Edge
+    -	Worked from August 2020 – December 2020
+    -	IT Intern
+    -	Derived a Price Analysis, executed inventory management in the backend of the website organized containers for an on-going company warehouse move, and also constructed numerous monthly reports.
+2.	American Cutting Edge
+    -	Worked from May 2021 – August 2021
+    -	IT Intern
+    -	Led inventory consolidation, executed creation of part numbers, Worked on Front-end Development for a new company website.
+3.	Siemens
+    -	Worked from January 2022 – May 2022
+    -	Strategic Student Program Software Development Co-Op
+    -	Worked as a Web Developer using JavaScript, AngularJS, and HTML on Siemens created website called Solution Link.
+4.	Siemens
+    -	Worked from August 2022 – December 2022
+    -	Strategic Student Program Software Development Co-Op
+    -	Worked as web developer using HTML, JavaScript, AngularJs, C#, and SQL on a company website called Solution Link. Coded new filters and tabs for numerous pages. Changed titles in HTML to constants to maintain reusability.
+5.	Siemens
+    -	Worked from May 2023 – August 2023 
+    -	Strategic Student Program Software Development Co-Op
+    -	Developed and deployed new features for company website Solution Link using HTML, CSS, JavaScript, Angular JS and C#. Fixed numerous website bugs, improved frontend and backend website development skills.
+
+**Projects Sought**
+
+I currently don’t have a clear grasp as to what I would like to create for my Senior Design Project. I have a couple of ideas, but I am not set on one yet.
+-	Artificial Intelligence Model
+-	Machine Learning Data Model
+-	Website 
+-	Stock Prediction Model
+-	Sports Prediction Model
+-	Artificial Intelligence Video Game
+
+
+### Rylee Charlton
+**Contact information**
+
+Rylee Charlton
+
+charltrj@mail.uc.edu
+
+**Co-op Work Experience**
+
+Internal Computer Support InternSchneider Downs Inc,, *May 2021-Present (7 semesters)*
+- Configure and monitor servers, backups, and cloud infrastructure.
+- Research and resolve daily alerts associated with servers, backups, and cloud infrastructure.
+- Configure, maintain, and monitor Microsoft Windows servers and VMware in a network environment.
+- Assist with the management of the network environment including VPN and other network communication devices.
+- Implement infrastructure security best practices and policies.
+- Administration of Active Directory, Group Policy, Office 365 (including Exchange), VDI, Azure, and other cloud offerings.
+- Lead and/or assist with network and systems implementations, upgrades, and maintenance.
+- Create documentation, training materials, and videos.
+
+**Skills**
+
+- Programming: C++, Python, Java
+- Active Directory, Group Policy, Office 365, Exchange Hybrid, VMware Horizon, and Azure
+- Windows/Linux environment
+
+**Areas of Interest**
+
+- Systems Administration/Network Configuration
+- Security Data Analysis 
+- Cloud Computing
+  
+**Project Sought**
+
+- Possible Android Application (Friend finder based on user preferences)
+- Possible relation to co-op
+
+  
 ## Budget
 
 ## Appendix
