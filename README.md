@@ -322,3 +322,8 @@ Internal Computer Support InternSchneider Downs Inc,, *May 2021-Present (7 semes
 ## Budget
 
 ## Appendix
+**APIs**
+- https://the-odds-api.com/
+- https://rapidapi.com/api-sports/api/api-nba
+- https://www.cloudbet.com/api/
+- https://app.balldontlie.io/explore
