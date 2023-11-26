@@ -5,7 +5,7 @@
 
 *Project Advisor - Dr. Fred Annexstein*
 
-### Project Abstract
+## Project Abstract
 The sports betting market has seen rapid expansion due to the increased legalization of betting in multiple regions. This growth has been fueled by the emergence of online platforms, advanced technologies, and the widespread adoption of mobile betting applications. Leveraging algorithms that incorporate data from credible sources, sports betting websites provide users with a competitive edge. This approach facilitates well-informed betting decisions based on reliable information, leading to heightened prediction accuracy, increased success rates, and potentially greater profits. Furthermore, the use of trustworthy sources ensures data reliability, fostering user trust and transparency. Consequently, this integration of advanced algorithms and credible data contributes to a more sophisticated and reliable betting experience for enthusiasts.
 
 
@@ -170,7 +170,7 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 | 22. Refine UI/UX based on user feedback                         | Sean                        | 20%              |
 | 23. Deploy the web app to a hosting platform/service           | Sean                        | 20%              |
 
-### Concerns
+## Concerns
 1. Legal
     - We want to be able to get the data of these teams and players from reputable sources such as ESPN and we also would like to get the betting lines from reputable sources like FanDuel or DraftKings and we are unsure the legality of pulling data from those sources. We don't know if it goes in violation of their terms and conditions and we don't want them to think we are trying to take their data to hack them at all. We need to figure out what the terms and conditions are of these sites so that we can proceed as legally as possible.
 2. Financial
