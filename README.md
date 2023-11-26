@@ -170,6 +170,13 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 | 22. Refine UI/UX based on user feedback                         | Sean                        | 20%              |
 | 23. Deploy the web app to a hosting platform/service           | Sean                        | 20%              |
 
+### Concerns
+1. Legal
+    - We want to be able to get the data of these teams and players from reputable sources such as ESPN and we also would like to get the betting lines from reputable sources like FanDuel or DraftKings and we are unsure the legality of pulling data from those sources. We don't know if it goes in violation of their terms and conditions and we don't want them to think we are trying to take their data to hack them at all. We need to figure out what the terms and conditions are of these sites so that we can proceed as legally as possible.
+2. Financial
+    - With sports betting you need to have money to sports bet. We would like to be able to test the model in a controlled envrionment such as a sportsbook but in order to bet on these sites you have to have money that you are willing to possibly lose. Being poor college students we are unsure how we will conduct this with as little money as possible.
+3. Ethical
+    - We think that it might not be as ethical to some of these sports betting sites if we have a model that is able to more accurately predict if we can win a bet or not. We want to explore if there is any significant negative impact on anybody for us creating this model.
 
 ## PPT Slideshow
 [Presentation](https://docs.google.com/presentation/d/18rP2mFoe99REIxquvZ4SXVQtCudlpp2a68en-eUUvq4/edit#slide=id.g290da63ae18_4_21)
