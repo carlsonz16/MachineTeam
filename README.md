@@ -320,6 +320,7 @@ Internal Computer Support InternSchneider Downs Inc,, *May 2021-Present (7 semes
 
   
 ## Budget
+- Currently no expenses since we are trying to find APIs that are free for public use.
 
 ## Appendix
 **APIs**
