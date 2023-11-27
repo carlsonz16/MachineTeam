@@ -182,7 +182,7 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 [Presentation](https://docs.google.com/presentation/d/18rP2mFoe99REIxquvZ4SXVQtCudlpp2a68en-eUUvq4/edit#slide=id.g290da63ae18_4_21)
 
 ## Self-Assessment Essays
-
+https://github.com/carlsonz16/MachineTeam/tree/main/HomeworkEssays/Assignment%203
 ## Professional Biographies
 ### Jake D'Amico 
 **Co-Op Experience**
