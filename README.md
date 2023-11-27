@@ -335,3 +335,10 @@ Internal Computer Support InternSchneider Downs Inc,, *May 2021-Present (7 semes
 - https://rapidapi.com/api-sports/api/api-nba
 - https://www.cloudbet.com/api/
 - https://app.balldontlie.io/explore
+  
+**Watched Videos**
+- https://www.youtube.com/watch?v=i_LwzRVP7bg&ab_channel=freeCodeCamp.org
+- https://www.youtube.com/watch?v=7eh4d6sabA0&ab_channel=ProgrammingwithMosh
+- https://www.youtube.com/watch?v=IDthta5sUGQ&pp=ygUlc3BvcnRzIGJldHRpbmcgbWFjaGluZSBsZWFybmluZyBtb2RlbA%3D%3D&ab_channel=SirajRaval
+
+Meetings were held every week for at least 2 hours as per our team contract.
