@@ -182,10 +182,10 @@ Here's a breakdown of the expected division of labor for each task, indicating t
 [Presentation](https://docs.google.com/presentation/d/18rP2mFoe99REIxquvZ4SXVQtCudlpp2a68en-eUUvq4/edit#slide=id.g290da63ae18_4_21)
 
 ## Self-Assessment Essays
-[Rylee]([https://github.com/carlsonz16/MachineTeam/tree/main/HomeworkEssays/Assignment%203](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/Charltrj_Assignment3.md))
-[Zach](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/Individual%20Assessment%20Zach%20Carlson)
-[Sean](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/Assignment%203%20-%20Sean%20Tarbuck.md)
-[Jake](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/D'Amico%20IndvCapstone.md)
+- [Rylee](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/Charltrj_Assignment3.md)
+- [Zach](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/Individual%20Assessment%20Zach%20Carlson)
+- [Sean](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/Assignment%203%20-%20Sean%20Tarbuck.md)
+- [Jake](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/D'Amico%20IndvCapstone.md)
 ## Professional Biographies
 ### Jake D'Amico 
 **Co-Op Experience**
