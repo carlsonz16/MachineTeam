@@ -13,8 +13,8 @@ The sports betting market has seen rapid expansion due to the increased legaliza
 Our project aims to delve deep into the realm of Machine Learning and Artificial Intelligence using Python. Our primary objective is to create a machine-learned model that can analyze sports statistics and generate predictions. These predictions will be utilized to develop a website where users can retrieve these predictions to influence future bets. The project emphasizes both achieving practical results and the educational journey of gaining a comprehensive understanding of Machine Learning and AI.
 
 ## User Guides
-<a href="Documentation">Text</a>
-<a href="Manual">Text</a>
+<a href="Link">User Documentation</a>\
+<a href="Link"> User Manual</a>
 
 ## User Stories and Design Diagrams
 ### User Stories 
