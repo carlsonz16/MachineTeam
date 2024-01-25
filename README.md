@@ -14,8 +14,9 @@ Our project aims to delve deep into the realm of Machine Learning and Artificial
 
 ## User Guides
 ### User Documentation
-<a href="https://codingbeautydev.com">Coding Beauty</a>
+<a href="Link">Text</a>
 ### User Manual 
+<a href="Link">Text</a>
 
 ## User Stories and Design Diagrams
 ### User Stories 
