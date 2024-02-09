@@ -1,6 +1,4 @@
-# Table of Contents 
-<details>
-<summary>Table of Contents</summary>  
+# Table of Contents  
   
 ### Introduction 
 
@@ -61,7 +59,6 @@
 8.1 Platform Updates 
 
 8.2 Notification Preferences 
-</details>
 
 # User Docs
 
