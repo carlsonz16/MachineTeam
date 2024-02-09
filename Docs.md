@@ -68,6 +68,8 @@
 <details>
 <summary>User Docs</summary>  
   
+**Screenshots will be added at a later date**
+  
 ### Introduction 
 
 **1.1 Purpose of the Platform** 
