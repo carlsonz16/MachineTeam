@@ -17,7 +17,7 @@ Our project aims to delve deep into the realm of Machine Learning and Artificial
 
 ## Expo Poster
 
-![Key]()
+![Key](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicks%20-%20Expo%20Poster.png)
 
 ## User Stories and Design Diagrams
 ### User Stories 
