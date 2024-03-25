@@ -15,6 +15,10 @@ Our project aims to delve deep into the realm of Machine Learning and Artificial
 ## User Guides
 <a href="https://github.com/carlsonz16/MachineTeam/blob/main/Docs.md">User Documentation</a>
 
+## Expo Poster
+
+![Key]()
+
 ## User Stories and Design Diagrams
 ### User Stories 
 - As a user, I want to be able to get accurate stats and predictions of players I wish to bet on.
