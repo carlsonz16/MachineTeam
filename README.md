@@ -6,7 +6,7 @@
 *Project Advisor - Dr. Fred Annexstein*
 
 ## Project Abstract
-The sports betting market has seen rapid expansion due to the increased legalization of betting in multiple regions. This growth has been fueled by the emergence of online platforms, advanced technologies, and the widespread adoption of mobile betting applications. Leveraging algorithms that incorporate data from credible sources, sports betting websites provide users with a competitive edge. This approach facilitates well-informed betting decisions based on reliable information, leading to heightened prediction accuracy, increased success rates, and potentially greater profits. Furthermore, the use of trustworthy sources ensures data reliability, fostering user trust and transparency. Consequently, this integration of advanced algorithms and credible data contributes to a more sophisticated and reliable betting experience for enthusiasts.
+Precise Picks is an application designed to provide users with accurate player statistics and predictions to enhance their online sports betting experience. The motivation to development Precise Picks stems from the recent rapid expansion of the sports betting market. Precise Picks leverages algorithms that incorporate data from credible sources, which facilitates well-informed betting decisions based on reliable information - leading to heightened prediction accuracy, increased success rates, and potentially greater profits. 
 
 
 ## Project Description
