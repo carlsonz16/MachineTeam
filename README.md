@@ -56,7 +56,7 @@ make sure the model is providing results up to our standard. After the data is s
 
 
 ## Final PPT Slideshow
-[Presentation](https://docs.google.com/presentation/d/18rP2mFoe99REIxquvZ4SXVQtCudlpp2a68en-eUUvq4/edit#slide=id.g290da63ae18_4_21)
+[Presentation](https://docs.google.com/presentation/d/1xMCwyZy7SEMkv-Q0ecKcEiUa6FD0WcdxREc4oAL2rMU/edit?usp=sharing)
 
 ## Final Expo Poster
 
