@@ -15,9 +15,8 @@ Our project aims to delve deep into the realm of Machine Learning and Artificial
 ## User Guides
 <a href="https://github.com/carlsonz16/MachineTeam/blob/main/Docs.md">User Documentation</a>
 
-## Expo Poster
-
-![Key](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicks%20-%20Expo%20Poster.png)
+## Final PPT Slideshow
+[Presentation](https://docs.google.com/presentation/d/1xMCwyZy7SEMkv-Q0ecKcEiUa6FD0WcdxREc4oAL2rMU/edit?usp=sharing)
 
 ## User Stories and Design Diagrams
 ### User Stories 
@@ -55,10 +54,10 @@ make sure the model is providing results up to our standard. After the data is s
 ![D2](https://github.com/carlsonz16/MachineTeam/blob/main/Design_Diagrams/new%20D2.png)
 
 
-## Final PPT Slideshow
-[Presentation](https://docs.google.com/presentation/d/1xMCwyZy7SEMkv-Q0ecKcEiUa6FD0WcdxREc4oAL2rMU/edit?usp=sharing)
 
-## Final Expo Poster
+## Expo Poster
+
+![Key](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicks%20-%20Expo%20Poster.png)
 
 ## Self-Assessment Essays
 ### Initial:
