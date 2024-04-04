@@ -86,6 +86,10 @@ make sure the model is providing results up to our standard. After the data is s
 ### Sean Tarbuck
 ### Jake D'Amico
 ### Rylee Charlton
+
+#### Semester 1:
+
+#### Semester 2:
 | Task                                                                                                                | Time Spent | Notes on findings                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------|------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Conduct research on various methodologies and tools commonly used in sports prediction, focusing on techniques specific to NBA game prediction. | 2          | Researched different APIs that were free to use to get historical data from previous NBA games                                       |
