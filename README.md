@@ -15,6 +15,8 @@ Our project aims to delve deep into the realm of Machine Learning and Artificial
 ## User Guides
 <a href="https://github.com/carlsonz16/MachineTeam/blob/main/Docs.md">User Documentation</a>
 
+## Test Plan and Results
+
 ## Final PPT Slideshow
 [Presentation](https://docs.google.com/presentation/d/1xMCwyZy7SEMkv-Q0ecKcEiUa6FD0WcdxREc4oAL2rMU/edit?usp=sharing)
 
