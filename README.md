@@ -90,6 +90,14 @@ make sure the model is providing results up to our standard. After the data is s
 ### Rylee Charlton
 
 #### Semester 1:
+| Task                                        | Time Spent | Notes on findings                                                                                       |
+|---------------------------------------------|------------|---------------------------------------------------------------------------------------------------------|
+| Researched best tools to create a website  | 2          |                                                                                                         |
+| Researched different possible APIs         | 1          | Shared findings with the team                                                                           |
+| Team Meetings                               | 28         | Weekly meeting with team                                                                                |
+| Documentation/Project work                  | 10         | Completed weekly assignments in Canvas, created .md page, and organized GitHub repository              |
+| Came up with general layout of website      | 2          | Created mockup images for the website layout                                                           |
+
 
 #### Semester 2:
 | Task                                                                                                                | Time Spent | Notes on findings                                                                                                                      |
