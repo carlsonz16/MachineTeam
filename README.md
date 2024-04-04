@@ -86,6 +86,14 @@ make sure the model is providing results up to our standard. After the data is s
 ### Sean Tarbuck
 ### Jake D'Amico
 ### Rylee Charlton
+| Task                                                                                                                | Time Spent | Notes on findings                                                                                                                      |
+|---------------------------------------------------------------------------------------------------------------------|------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Conduct research on various methodologies and tools commonly used in sports prediction, focusing on techniques specific to NBA game prediction. | 2          | Researched different APIs that were free to use to get historical data from previous NBA games                                       |
+| Create wireframes and design the user interface and user experience for the web application. Select a suitable front-end framework for development. | 7          | Decided to use React as framework. Spent lots of time researching React and different tools to use alongside with the main react framework (Tailwinds CSS, MaterialWinds) |
+| Develop front-end components for the website: Home, About, PlayerStats pages                                        | 10         | Configured design of webpage using different MaterialWinds CSS addins                                                                 |
+| Created a way for team icons to display when referring to teams                                                    | 3          |                                                                                                                                        |
+| Integrate Historical Data API                                                                                      | 5          | Spent time integrating the selected API for accessing historical NBA game data into the front-end application. Specifically, the player data and the formatting of that. |
+| Weekly Team Meeting                                                                                               | 28         | Weekly meeting with team                                                                                                               |
 
 
 ## Summary of Expenses
