@@ -71,7 +71,7 @@ make sure the model is providing results up to our standard. After the data is s
 - [Jake](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/D'Amico%20IndvCapstone.md)
 
 ### Final:
-- [Rylee]([https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Assignment%203/Charltrj_Assignment3.md](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/SelfAssessment_Charlton.md))
+- [Rylee](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/SelfAssessment_Charlton.md)
 
 
 ## Summary of Hours and Justification
