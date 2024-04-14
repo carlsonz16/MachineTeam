@@ -73,6 +73,8 @@ make sure the model is providing results up to our standard. After the data is s
 ### Final:
 - [Rylee](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/SelfAssessment_Charlton.md)
 - [Zach](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Self_Assessment_Carlson.md)
+- [Sean](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Self_Assessment_Tarbuck.md)
+- [Jake](https://github.com/carlsonz16/MachineTeam/blob/main/HomeworkEssays/Self%20Assessment%20Jake%20D'Amico.md)
 
 
 ## Summary of Hours and Justification
