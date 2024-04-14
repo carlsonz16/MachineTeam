@@ -149,7 +149,7 @@ make sure the model is providing results up to our standard. After the data is s
 
 
 ## Summary of Expenses
-- Precise Picks required no expenses. The websie was locally hosted and the API's leveraged were free for public use. 
+- Precise Picks required no expenses. The website was locally hosted and the API's leveraged were free for public use. 
 
 ## Appendix
 **APIs**
