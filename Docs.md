@@ -4,68 +4,40 @@
 
 1.1 Purpose of the Platform 
 
-1.2 System Requirements 
-
-1.3 Getting Started 
-
-### User Registration  
-
-2.1 Creating an Account 
-
-2.2 Account Verification 
-
-2.3 Logging In 
-
-2.4 Account Security 
+1.2 Getting Started 
 
 ### Browsing and Selecting Events  
 
-3.1 Navigating the Homepage 
+2.1 Navigating the Homepage 
 
-3.2 Filtering and Sorting Options 
-
-3.3 Selecting a Sports Event 
+2.2 Filtering and Sorting Options 
 
 ### Player Stats and Predictions  
 
-4.1 Accessing Player Information 
+3.1 Accessing Player Information 
 
-4.2 Real-time Stats 
+3.2 Real-time Stats 
 
-4.3 Predictions and Analysis 
+3.3 Predictions and Analysis 
 
-4.4 Historical Data 
-
-### My Account  
-
-5.1 Managing Personal Information 
+3.4 Historical Data 
 
 ### Support and Contact  
 
-6.1 Customer Support 
+4.1 Customer Support 
 
-6.2 Frequently Asked Questions 
-
-6.3 Reporting Issues 
+4.2 Frequently Asked Questions 
 
 ### Terms and Conditions  
 
-7.1 User Agreement 
+5.1 User Agreement 
 
-7.3 Privacy Policy 
+5.2 Privacy Policy 
 
-### Updates and Notifications  
-
-8.1 Platform Updates 
-
-8.2 Notification Preferences 
 
 # User Docs
-
-<details>
-<summary>User Docs</summary>  
   
-**Screenshots will be added at a later date**
+![Home Page](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicksHomePage.png)
   
 ### Introduction 
 
@@ -75,83 +47,61 @@ Precious Picks is designed to provide users with accurate player stats and predi
 
 **1.2 Getting Started** 
 
-Create a Precious Picks account. After registration, explore the many features the platform offers, including browsing sporting events, accessing player stats, and more.  
-
-### User Registration  
-
-**2.1 Creating an Account** 
-
-To create an account, click on the "Sign up" button on the homepage. Fill in the required information and verify your email address. 
-
-**2.2 Account Verification** 
-
-Verify your account through the email link sent during registration. This ensures the security of your account. 
-
-**2.3 Logging In** 
-
-To log in, enter your credentials on the login page to access your account 
-
-**2.4 Account Security** 
-
-Enhance account security by enabling two-factor authentication in your account settings.  
+Explore the many features the platform offers, including browsing upcoming/live NBA games, accessing player stats, and more.  
 
 ### Browsing and Selecting Events  
 
-**3.1 Navigating the Homepage** 
+**2.1 Navigating the Homepage** 
 
-Explore the homepage to find a list of upcoming sporting events, trending sports, and featured matches. Use the search bar or filters to narrow down your choices. 
+![Home Page Tabs](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicksTabs.png)
 
-**3.2 Filtering and Sorting Options** 
+Explore the homepage to find a list of upcoming NBA games, live games, and player statistics.
 
-Utilize filters such as sport type, date, and popularity to find specific events. Sort options help organize events based on time, odds, or relevance. 
+**2.2 Filtering and Sorting Options** 
 
-**3.3 Selecting a Sports Event** 
-
-Click on an event to view detailed information, including participating teams and match odds/statistics.  
+Utilize filters such as Assists, Points, and Rebounds within the drop down on the player statistics page.
 
 ### Player Stats and Predictions  
 
-**4.1 Accessing Player Information** 
+**3.1 Accessing Player Information** 
+
+![Player Stats](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicksStats.png)
 
 Navigate to the player section to access comprehensive statistics, individual historical performance, and head-to-head data. 
 
-**4.2 Real-time Stats** 
+**3.2 Real-time Scoring/Prediction** 
+
+![Live Prediction](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicksLivePrediction.png)
 
 Stay updated with live player statistics during matches to make informed betting decisions. 
 
-**4.3 Predictions and Analysis** 
+**3.3 Predictions and Analysis** 
 
-Explore the platforms predictions and analysis tools for insights into player performance and match outcomes.  
+![Upcoming Prediction](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicksGamePrediction.png)
 
-**4.4 Historical Data** 
+Explore the platforms predictions and analysis tools for insights into match outcomes.  
+
+**3.4 Historical Data** 
+
+![Stats](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicksStats2.png)
 
 Access historical data for players, teams, and events to identify patterns and trends.  
 
-### My Account  
+**4.1 Customer Support**
 
-**5.1 Managing Personal Information** 
+![Stats](https://github.com/carlsonz16/MachineTeam/blob/main/PrecisePicksContactUs.png)
 
-Update personal details, including contact information and password, in the account settings. 
+Contact us via the "Contact Us" form on the website.
 
-### Support and Contact  
-
-**6.1 Customer Support** 
-
-Contact our customer support team for assistance with account issues, website errors, or technical difficulties at PreciousPicksCustomerSupport@PreciousPicks.com 
-
-**6.2 Frequently Asked Questions** 
+**4.2 Frequently Asked Questions** 
 
 **How do I navigate to specific sports events?**
 
-  *Use the search bar, filters, and sorting options on the homepage to find and select specific sports events based on criteria such as sport type, date, and popularity.*
+  *Use the tabs located at the top of the website to locate upcoming and live NBA games.*
 
 **Where can I find player statistics and predictions?** 
 
-  *Navigate to the player section to access detailed player statistics, real-time updates, and predictions for informed betting decisions.*
-
-**What do I do if I forget my password?** 
-
-  *On the login page, click on the "Forgot Password" link. Follow the instructions to reset your password via the email address associated with your account.*
+  *Navigate to the player section to access detailed player statistics and predictions for informed betting decisions.*
 
 **Is there a mobile app available for the platform?** 
 
@@ -159,47 +109,28 @@ Contact our customer support team for assistance with account issues, website er
 
 **How are the odds calculated on the platform?** 
 
-  *Odds are calculated based on various factors, including team performance, player statistics, and historical data. The platform uses algorithms to generate accurate and fair odds.*
+  *Odds are calculated based on various factors, including team performance and historical data. The platform uses machine learning algorithms to generate result outcomes.*
 
 **How frequently are player statistics updated during a live event?** 
 
-  *Player statistics are updated in real-time during live events. The platform utilizes live data feeds to provide users with the most accurate and current information.*
+  *Player statistics are not updated in real-time during live events. However, live scoring and time updates can be found on the "Live Games and Predictions Tab.*
 
 **What factors contribute to the platform's predictions for a specific event?** 
 
-  *Predictions are generated based on a combination of historical data, team and player performance, recent form, and various statistical models. The platform aims to provide insightful analysis for users.*
+  *Predictions are generated based on a combination of historical data, team performance, recent form, and various statistical models. The platform aims to provide insightful analysis for users.*
 
 **How can I interpret the odds to make informed betting decisions?** 
 
   *Understanding odds is crucial. Higher odds typically indicate a less likely outcome but offer a higher potential payout. Lower odds suggest a more likely outcome with a lower potential payout.*
 
-**Can I receive notifications for significant odds changes or updates?** 
-
-  *Check your notification preferences in the account settings. Some platforms provide the option to receive alerts for significant odds changes or updates on selected events.*
-
-
-**6.3 Reporting Issues** 
-
-If you encounter any bugs or issues, contact the customer support team at PreciousPicksCustomerSupport@PreciousPicks.com 
 
 ### Terms and Conditions  
 
-**7.1 User Agreement** 
+**5.1 User Agreement** 
 
 Read and understand the User Agreement that outlines the terms and conditions governing your use of the platform  
 
-**7.3 Privacy Policy** 
+**5.2 Privacy Policy** 
 
 Understand how your personal information is collected, used, and protected by reviewing the privacy policy.  
 
-### Updates and Notifications  
-
-**8.1 Platform Updates** 
-
-Stay informed about platforms updates, new features, and improvements through notifications and announcements. 
-
-**8.2 Notification Preferences** 
-
-Manage your notifications preferences to receives updates on promotions, important platform information, and select custom notifications. 
-
-</details>
