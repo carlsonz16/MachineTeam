@@ -99,6 +99,19 @@ make sure the model is providing results up to our standard. After the data is s
 - Weekly Team Meeting (28)
   
 ### Sean Tarbuck
+
+#### Semester 1:
+- Assisted with Machine Learning/AI Research to grasp a solid foundation of knowledge (4)
+- Weekly Assignments/Tasks (6)
+- Weekly Team Meetings (28)
+
+#### Semester 2:
+- Research regarding Front-end Design/Development (3)
+- Implementation of Front-end Design/Development (~14)
+- Weekly Assignments/Tasks (10)
+- Weekly Team Meetings (28)
+- Senior Design Tech Expo (6)
+
 ### Jake D'Amico
 #### Semester 1:
 - Researched architectures for frontend and backend.
@@ -136,7 +149,7 @@ make sure the model is providing results up to our standard. After the data is s
 
 
 ## Summary of Expenses
-- Currently no expenses since we are trying to find APIs that are free for public use.
+- Precise Picks required no expenses. The websie was locally hosted and the used API's leveraged were free for public use. 
 
 ## Appendix
 **APIs**
