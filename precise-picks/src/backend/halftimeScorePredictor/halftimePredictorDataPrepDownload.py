@@ -1,0 +1,192 @@
+from nba_api.live.nba.endpoints import playbyplay
+from nba_api.stats.static import teams
+from nba_api.stats.endpoints import leaguegamefinder
+import pandas as pd
+import numpy as np
+import time
+import requests
+from json.decoder import JSONDecodeError
+import re
+from sklearn.preprocessing import OneHotEncoder
+from pathlib import Path
+import gc
+
+# Specifying columns to be one-hot encoded
+#fields_to_encode = ['actionType', 'subType', 'descriptor', 'area', 'timeUntilHalftime', 'personId']
+fields_to_encode = ['actionType', 'subType', 'descriptor', 'area', 'personId']
+
+def retry(func, retries=3):
+    def retry_wrapper(*args, **kwargs):
+        attempts = 0
+        while attempts < retries:
+            try:
+                return func(*args, **kwargs)
+            except requests.exceptions.RequestException as e:
+                print(e)
+                time.sleep(30)
+                attempts += 1
+    return retry_wrapper
+
+def convert_clock_format(clock_str, period):
+    match = re.search(r'PT(\d+)M(\d+)(?:\.(\d+))?S', clock_str)
+    if match:
+        minutes, seconds, milliseconds = match.groups()
+        minutes = int(minutes)
+        seconds = int(seconds)
+        milliseconds = milliseconds or '00'
+        
+        if period == 1:
+            minutes += 12
+        
+        #return f"{minutes:02}:{seconds:02}:{milliseconds[:2]}"
+        #removed for conversion to float32 tensor
+        return int(f"{minutes:02}{seconds:02}{milliseconds[:2]}")
+    else:
+        return "00:00:00"
+     
+def preprocessData(df, encoder):
+    # Transform with the encoder within this function
+    encoded = encoder.transform(df[fields_to_encode].astype(str)) # Use transform here
+    new_cols = encoder.get_feature_names_out(fields_to_encode)
+    encoded_df = pd.DataFrame(encoded, columns=new_cols)
+    df.drop(columns=fields_to_encode, inplace=True)
+    result_df = pd.concat([df, encoded_df], axis=1)
+    return result_df
+
+def pad_dataframe(df, max_length):
+    num_rows_to_add = max_length - len(df)
+    if num_rows_to_add > 0:
+        # Specify a data type for the padding if all columns are expected to be of the same type
+        # Adjust this as needed (e.g., create a padding row with the correct types for each column)
+        padding_df = pd.DataFrame(0, index=np.arange(num_rows_to_add), columns=df.columns)  # Using 0 for padding
+        df = pd.concat([df, padding_df], ignore_index=True)
+    
+    return df
+
+
+def convert_columns_to_numeric(df):
+    for column in df.columns:
+        try:
+            df[column] = pd.to_numeric(df[column], errors='coerce')
+        except ValueError:
+            # Handle or log columns that cannot be converted to numeric
+            print(f"Column {column} cannot be converted to numeric.")
+    df.fillna(0, inplace=True)  # Replace NaNs introduced by 'coerce' with 0 or another placeholder as appropriate
+
+@retry
+def getFirstHalfPlayByPlays(game_id, home_team_tricode):
+    try:
+        pbp_data = playbyplay.PlayByPlay(game_id)
+        full_actions = pbp_data.get_dict()['game']['actions']
+        
+        filtered_actions = [
+           {
+              **{key: action.get(key, 'None') if key in ['actionType', 'subType', 'descriptor', 'area'] else action.get(key, None) for key in ['actionType', 'subType', 'descriptor', 'area', 'personId', 'scoreHome', 'scoreAway']},
+              'timeUntilHalftime': convert_clock_format(action['clock'], action['period']) if 'clock' in action and 'period' in action else "24:00:00",
+              'homeTeamDidAction': action.get('teamTricode') == home_team_tricode
+           }
+           for action in full_actions if (action.get('period') in [1, 2]) or (action.get('actionType') == 'game' and action.get('subType') == 'end')
+        ]
+
+        
+        return filtered_actions
+    except JSONDecodeError as e:
+        print(f"JSONDecodeError encountered for game ID {game_id}: {e}")
+
+def get_pbp_data():
+    nba_teams = teams.get_teams()
+    all_games = []
+
+    for team in nba_teams:
+        gamefinder = leaguegamefinder.LeagueGameFinder(team_id_nullable=team['id'])
+        games = gamefinder.get_data_frames()[0]
+        all_games.append(games)
+
+    combined_games = pd.concat(all_games, ignore_index=True)
+    home_games_only = combined_games[combined_games['MATCHUP'].str.contains(' vs. ')]
+    home_games_only['HOME_TEAM'], home_games_only['AWAY_TEAM'] = zip(*home_games_only['MATCHUP'].apply(lambda x: x.split(' vs. ')))
+    home_games_ids_dates = home_games_only[['GAME_ID', 'GAME_DATE', 'HOME_TEAM', 'AWAY_TEAM']]
+
+    chunk_size = 10000
+    total_entries = len(home_games_ids_dates)
+    processed_chunks = 0
+    save_folder = Path("excelPBPData")
+    save_folder.mkdir(parents=True, exist_ok=True)  # Ensure the folder exists 
+    score_results = {}
+    for start_row in range(0, total_entries, chunk_size):
+       pbp_data_list = []
+       for index, row in home_games_ids_dates.iloc[start_row:start_row+chunk_size].iterrows():
+          game_pbp_data = getFirstHalfPlayByPlays(row['GAME_ID'], row['HOME_TEAM'])
+          if game_pbp_data:
+                pbp_data_list.append(game_pbp_data)
+    
+       # Extract final score and update pbp_data_list
+       for index, game_actions in enumerate(pbp_data_list):
+          # Extract the final score from the last entry of each list
+          final_score = game_actions[-1]
+          scoreHome = final_score['scoreHome']
+          scoreAway = final_score['scoreAway']
+          
+          # Store these scores in score_results, modified to include start_row for uniqueness
+          score_results[start_row + index] = {'scoreHome': scoreHome, 'scoreAway': scoreAway}
+          
+          # Remove the last entry (final score entry) from each list
+          pbp_data_list[index] = game_actions[:-1]
+       
+       # Data collected, time to process
+       pbp_data_df_list = [pd.DataFrame(game) for game in pbp_data_list]
+    
+       # Initialize and fit the encoder on the concatenated DataFrame
+       flattened_pbp_df_list = pd.concat(pbp_data_df_list, ignore_index=True)
+       encoder = OneHotEncoder(sparse=False, handle_unknown='ignore')
+       encoder.fit(flattened_pbp_df_list[fields_to_encode].astype(str))  # Only fit here
+    
+       # Process each DataFrame in the list
+       preprocessed_pbp_df_list = [preprocessData(df, encoder) for df in pbp_data_df_list]
+    
+       # Force to int because the type is off
+       for df in preprocessed_pbp_df_list:
+          for column in df.columns:
+             if column not in fields_to_encode + ['homeTeamDidAction']:  # Exclude already handled columns
+                   df[column] = pd.to_numeric(df[column], errors='coerce')
+    
+       # Pad each DataFrame in the list
+       max_length = max(len(df) for df in preprocessed_pbp_df_list)
+       pbp_df_list_padded = [pad_dataframe(df, max_length) for df in preprocessed_pbp_df_list]
+    
+       # Apply the conversion after padding
+       for df in pbp_df_list_padded:
+          convert_columns_to_numeric(df)  # Assuming this function iterates through the columns of df
+    
+       # Replace None with 0
+       for df in pbp_df_list_padded:
+          df.fillna(0, inplace=True)
+    
+        
+       #replace true with 1 and false with 0
+       for df in pbp_df_list_padded:
+         df.replace({True: 1, False: 0}, inplace=True)
+       
+       #convert to array, stored [scoreHome, scoreAway]
+       score_results_array = [[float(details['scoreHome']), float(details['scoreAway'])] for details in score_results.values()]
+       
+       # Save processed dataframes to the specified folder
+       for i, df in enumerate(pbp_df_list_padded):
+           save_path = save_folder / f"processed_data_chunk_{processed_chunks}_{i}.csv"
+           df.to_csv(save_path, index=False)
+       
+       # Update the count of processed chunks
+       processed_chunks += 1
+   
+       # Free memory
+       del pbp_data_list
+       del pbp_df_list_padded
+       gc.collect()  # Explicitly call the garbage collector
+
+    #return pbp_df_list_padded, score_results_array
+    score_results_df = pd.DataFrame(score_results_array, columns=['scoreHome', 'scoreAway'])
+    score_results_path = save_folder / "score_results.csv"
+    score_results_df.to_csv(score_results_path, index=False)
+
+if __name__ == '__main__':
+    pbp_df = get_pbp_data()

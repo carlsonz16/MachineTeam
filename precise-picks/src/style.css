@@ -1,0 +1,85 @@
+/* Reset some default styles and set a baseline font size */
+body {
+  margin: 50;
+  padding: 50;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Apply a box-sizing border-box model to all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Center the content in the App component */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px; /* Adjust the padding as needed */
+}
+
+/* Style the header with a background color, padding, and flex properties */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row; /* Change flex direction to row */
+  align-items: center; /* Align items in the center */
+  justify-content: flex-start; /* Adjust to start from the left */
+  font-size: 1.5rem; /* Use a relative unit for font size */
+  color: white;
+}
+
+/* Style the logo image */
+.App-logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 20px; /* Add some spacing between the logo and other content */
+  animation: App-logo-spin infinite 20s linear;
+}
+
+/* Style the header link */
+.App-link {
+  color: #61dafb;
+  text-decoration: none; /* Remove underlines from links */
+  font-weight: bold; /* Make the link text bold */
+  transition: color 0.3s ease-in-out; /* Add a smooth color transition effect */
+}
+
+/* Change link color on hover */
+.App-link:hover {
+  color: #40a9ff;
+}
+
+/* Keyframes for spinning animation */
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.titleCenter {
+  text-align: left;
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  color: #0099ff;
+}
+
+.imgCenter {
+  text-align: left;
+}
+
+.tabCenter {
+  text-align: left;
+}
+
+.textFont {
+  font-family: Impact, fantasy;
+  font-size: 20px;
+  color: #0066cc;
+}
