@@ -88,12 +88,12 @@ make sure the model is providing results up to our standard. After the data is s
 - Weekly Team Meeting (28)
 
 #### Semester 2:
-- Web-scraping algorithm for historical NBA stats from basketball-references.com took around 10 hours to get all the data from the 2016-2024 season. (10)
-- After each season was obtained, another algorithm was ran to get the individual game scores. There are 2,460 games played per season so 22,140 individual games were scraped taking around 50 hours (around 6 hours per season). (50)
-- After data was obtained from the web-scraping algorithm, a parsing algorithm was ran to get a csv that had all the data for the machine learned algorithm which took around 10 hours to parse all the data in a correct format. (10)
+- Web-scraping algorithm for historical NBA stats from basketball-references.com took around 5 hours to get all the data from the 2016-2024 season. (5)
+- After each season was obtained, another algorithm was ran to get the individual game scores. There are 2,460 games played per season so 22,140 individual games were scraped taking around 10. (10)
+- After data was obtained from the web-scraping algorithm, a parsing algorithm was ran to get a csv that had all the data for the machine learned algorithm which took around 3 hours to parse all the data in a correct format. (3)
 - The Machine learned algorithm was ran off the csv from the parsed data algorithm which took around 1 hour to run. (1)
-- 4 hours was spent getting the future predictions based on the machine learned data. (4)
-- Estimated 30 hours debugging. (30)
+- 3 hours was spent getting the future predictions based on the machine learned data. (3)
+- Estimated 10 hours debugging. (10)
 - Added in the betting odds for each game. After debugging and implementation around 3 hours were spent. (3)
 - Miscellaneous website additions made totalling 10 hours. (10)
 - Weekly Team Meeting (28)
