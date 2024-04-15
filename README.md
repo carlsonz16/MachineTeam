@@ -95,7 +95,7 @@ make sure the model is providing results up to our standard. After the data is s
 - 3 hours was spent getting the future predictions based on the machine learned data. (3)
 - Estimated 10 hours debugging. (10)
 - Added in the betting odds for each game. After debugging and implementation around 3 hours were spent. (3)
-- Miscellaneous website additions made totalling 10 hours. (10)
+- Miscellaneous website additions made totalling 2 hours. (2)
 - Weekly Team Meeting (28)
   
 ### Sean Tarbuck
