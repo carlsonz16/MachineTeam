@@ -114,17 +114,17 @@ make sure the model is providing results up to our standard. After the data is s
 
 ### Jake D'Amico
 #### Semester 1:
-- Researched architectures for frontend and backend.
-- Researched many concepts of machine learning.
-- Began testing with different frontend and backend architectures.
-- Team meetings.
+- Researched architectures for frontend and backend. (8)
+- Researched many concepts of machine learning. (6)
+- Began testing with different frontend and backend architectures.(6)
+- Team meetings. (28)
 #### Semester 2:
 - Set up the bare architecture for the application using Vite to quick start a React project, then creating a short Python script for the Flask server. This then required modifying of our package-lock to ensure our API requests would point towards our Flask server.
-- Developed the backend to frontend logic for most of our React components that communicated with the APIs we used, as well as many other solutions the site needed for images, charts, pagination, graphs, etc.
-- Developed a script to send around 60,000 requests pulling data of play by play games, which was then processed using strategies such as one-hot encoding, min-max feature scaling, and sequence length padding to create a dataset of play by plays to use.
-- Developed the script for a LSTM model using PyTorch which could input the process data and train a model with the ability to test different combinations of values for hidden dimensions and number of layers.
-- Added the ability to load the LSTM model directly into the server using PyTorch so it could then be queried by users in the frontend with current play by play data.
-- Weekly Meetings
+- Developed the backend to frontend logic for most of our React components that communicated with the APIs we used, as well as many other solutions the site needed for images, charts, pagination, graphs, etc.(8)
+- Developed a script to send around 60,000 requests pulling data of play by play games, which was then processed using strategies such as one-hot encoding, min-max feature scaling, and sequence length padding to create a dataset of play by plays to use.(8)
+- Developed the script for a LSTM model using PyTorch which could input the process data and train a model with the ability to test different combinations of values for hidden dimensions and number of layers. (8)
+- Added the ability to load the LSTM model directly into the server using PyTorch so it could then be queried by users in the frontend with current play by play data.(4)
+- Weekly Meetings (28)
 ### Rylee Charlton
 
 #### Semester 1:
