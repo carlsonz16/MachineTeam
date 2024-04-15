@@ -107,8 +107,8 @@ make sure the model is providing results up to our standard. After the data is s
 
 #### Semester 2:
 - Research regarding Front-end Design/Development (3)
-- Implementation of Front-end Design/Development (~14)
-- Weekly Assignments/Tasks (10)
+- Implementation of Front-end Design/Development (~12)
+- Weekly Assignments/Tasks (6)
 - Weekly Team Meetings (28)
 - Senior Design Tech Expo (6)
 
